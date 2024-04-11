@@ -1,0 +1,216 @@
+/*ALL*/
+body {
+    background-color: #E9F1F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-modif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+/*Index*/
+.main-img {
+    width: 424px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 17px;
+    margin:auto;
+}
+
+main div {
+    object-fit: contain;
+    background-color: #3F84E5;
+    padding: 2px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 0.5em;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.main-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(465px, 0px));
+    gap: 16px;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 5em;
+}
+
+header h1{
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 2em;
+    padding: 5px
+}
+
+#courant {
+    border: none;
+    background-color: #3F84E5;
+    color: #000000;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.photoPlus {
+    justify-content: center;
+}
+
+.bouton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+.bouton:hover {
+    background-color: #45a049;
+}
+
+/* icone */
+#icn {
+    height: 30px;
+}
+
+.icnImg1 {
+    height: 30px;
+    position: absolute;
+    bottom: 12px;
+    right: 13px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 7px;
+}
+.icnImg2 {
+    height: 30px;
+    position: absolute;
+    bottom: 12px;
+    right: 44px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 7px;
+}
+
+/*Image ouverte*/
+#image {
+    display: block;
+    width: 70em;
+    height: auto;
+    object-fit: contain;
+    background-color: #3F84E5;
+    padding: 20px;
+    border-radius: 7px;
+    margin: auto;
+    cursor: pointer;
+}
+
+/*Delete*/
+.confirm {
+    text-decoration: none;
+    margin: 10px;
+}
+
+input {
+    margin: 10px
+}
+
+/*formulaire*/
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: block;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+/* tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/*decoration des boutons submit et des checbox*/
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+
+/*supprimer all*/
+
+.divSup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bodySup {
+    justify-content: center;
+    display: flex;
+}
+
